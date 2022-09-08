@@ -20,6 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
+/* In page nav links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +51,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Main picture below header */
     background-size: cover;
     background-position: center;
 }
@@ -66,7 +67,8 @@ h3 {
     font-size: 22px;
 }
 
-.content {
+/* Left Column blocks */
+.content { 
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -121,6 +123,7 @@ h3 {
     margin-left: 25px;
 }
 
+/* Right Column block */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -132,34 +135,24 @@ h3 {
     background-color: #207aab;
 }
 
-.benefit-lead {
+#benefit-lead, #benefit-brand, #benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead img {
+#benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+#benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+#benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
